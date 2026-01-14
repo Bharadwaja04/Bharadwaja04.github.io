@@ -1,0 +1,64 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  background: #0f172a;
+  color: #e5e7eb;
+  line-height: 1.6;
+}
+
+/* HERO */
+.hero {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.hero h1 {
+  font-size: 3rem;
+}
+
+.hero p {
+  margin: 1rem 0;
+  color: #94a3b8;
+}
+
+.btn {
+  text-decoration: none;
+  background: #38bdf8;
+  color: #020617;
+  padding: 0.7rem 1.5rem;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+/* SECTIONS */
+section {
+  padding: 4rem 10%;
+}
+
+h2 {
+  margin-bottom: 1.5rem;
+  color: #38bdf8;
+}
+
+/* PROJECTS */
+.project-card {
+  background: #020617;
+  padding: 1.5rem;
+  border-radius: 8px;
+  margin-bottom: 1.5rem;
+}
+
+.project-card a {
+  color: #38bdf8;
+  text-decoration: none;
+  font-weight: bold;
+}
